@@ -72,6 +72,7 @@ header {
   margin: auto;
   margin-top: 117px;
   padding: 5rem 2rem;
+  transition: 0.3s ease;
 }
 
 .blur{
@@ -145,6 +146,7 @@ header img {
   /* display: flex; */
   width: 100%;
   margin: auto;
+  transition: 0.3s ease;
 }
 
 .container2 {
