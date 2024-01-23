@@ -13,13 +13,23 @@ body {
   background: #040403;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: hsl(0, 0%, 0%, 0.2);
+  backdrop-filter: blur(1.5rem);
+  z-index: 100;
+}
+
 nav {
   max-width: 1200px;
   margin: auto;
   padding: 2rem 2rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -58,6 +68,7 @@ header {
 .container1 {
   max-width: 1200px;
   margin: auto;
+  margin-top: 117px;
   padding: 5rem 2rem;
 }
 
