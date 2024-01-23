@@ -20,6 +20,7 @@ body {
   width: 100%;
   background: hsl(0, 0%, 0%, 0.2);
   backdrop-filter: blur(1.5rem);
+  transition: 0.3s ease;
   z-index: 100;
 }
 
@@ -30,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.3s ease;
 }
 
 .logo {
@@ -133,6 +135,10 @@ header {
   border-radius: 2px 50px;
   border-color: #f4fdff;
   background-color: #44573e;
+}
+
+.btn:active {
+  background-color: #3b4b36;
 }
 
 header img {
@@ -277,6 +283,12 @@ footer p {
     gap: 50px;
     padding: 4rem 2rem;
   }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .home-content h1 {
     font-size: 50px;
   }
@@ -284,6 +296,7 @@ footer p {
     font-size: 29px;
   }
   .home-content p {
+    text-align: center;
     max-width: 350px;
     font-size: 15px;
   }
@@ -309,6 +322,12 @@ footer p {
   .container1 {
     margin-top: 60px;
   }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .home-content h1 {
     font-size: 40px;
   }
@@ -316,6 +335,7 @@ footer p {
     font-size: 22px;
   }
   .home-content p {
+    text-align: center;
     max-width: 300px;
     font-size: 12px;
   }
